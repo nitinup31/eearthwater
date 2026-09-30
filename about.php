@@ -1,0 +1,490 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="eearth — Pure By Nature. Learn about our story, mission, and commitment to natural mineral water.">
+    <title>About — eearth Pure By Nature</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="site-bg-glow"></div>
+
+<!-- CINEMATIC WATER DROPS -->
+<div class="water-drops-container" aria-hidden="true">
+    <span class="water-drop" style="left:5%;animation-duration:7s;animation-delay:-2s"></span>
+    <span class="water-drop" style="left:13%;animation-duration:9s;animation-delay:-6s"></span>
+    <span class="water-drop" style="left:24%;animation-duration:6s;animation-delay:-1s"></span>
+    <span class="water-drop" style="left:36%;animation-duration:10s;animation-delay:-7s"></span>
+    <span class="water-drop" style="left:48%;animation-duration:7.5s;animation-delay:-3s"></span>
+    <span class="water-drop" style="left:61%;animation-duration:8.5s;animation-delay:-5s"></span>
+    <span class="water-drop" style="left:74%;animation-duration:6.5s;animation-delay:-4s"></span>
+    <span class="water-drop" style="left:86%;animation-duration:9.5s;animation-delay:-8s"></span>
+    <span class="water-drop" style="left:94%;animation-duration:7s;animation-delay:-1s"></span>
+</div>
+
+
+<?php include "header.php"?>
+
+<main>
+
+<!-- HERO SECTION -->
+<section class="about-hero">
+    <div class="container about-hero-content">
+        <span class="hero-badge">Pure By Nature</span>
+        <h1>
+            <span class="title-line">Our Story</span>
+            <span class="title-line title-gold">Begins With Water</span>
+        </h1>
+        <p class="hero-subtitle">
+            eearth was born from a simple idea  to bring pure, thoughtfully crafted water to everyday life. Our journey is rooted in nature, refined by science, and presented with care.
+        </p>
+    </div>
+</section>
+
+<!-- BRAND STORY SECTION -->
+<section class="section story-section">
+    <div class="container">
+        <div class="story-grid">
+            <div class="story-copy reveal">
+                <span class="section-kicker">Our Story</span>
+                <h2>From <span>Nature</span> to Bottle</h2>
+                <p>
+                    eearth began with a vision to create water that honors its natural origins while meeting modern standards of purity. We source from pristine natural springs, then carefully purify while preserving essential minerals.
+                </p>
+                <p>
+                    Every bottle represents our commitment to quality, sustainability, and the belief that everyone deserves access to pure, refreshing water.
+                </p>
+                <a href="#why" class="btn-secondary">Learn More</a>
+            </div>
+            <div class="story-visual reveal">
+                <img src="images/eearth_banner.png" alt="eearth natural water source" onerror="this.style.display='none'">
+                <div class="story-overlay-label">
+                    <strong>Since 2026</strong>
+                    <span>Pure by Nature</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VISUAL STORY SECTION -->
+<section class="section visual-story">
+    <div class="container">
+        <div class="section-header center reveal">
+            <span class="section-kicker">From nature to bottle</span>
+            <h2 class="section-title">Every drop has a journey.</h2>
+            <p class="section-subtitle">
+                The eearth experience brings together nature, controlled purification and premium presentation.
+            </p>
+        </div>
+
+        <div class="visual-story-grid">
+            <article class="visual-card reveal">
+                <img src="images/nature.png" alt="Natural water source" loading="lazy" onerror="this.style.display='none'">
+                <div class="visual-card-content">
+                    <span>01 / Source</span>
+                    <h3>Nature First</h3>
+                </div>
+            </article>
+
+            <article class="visual-card reveal">
+                <img src="images/ro.png" alt="Water purification plant" loading="lazy" onerror="this.style.display='none'">
+                <div class="visual-card-content">
+                    <span>02 / Purification</span>
+                    <h3>Pure Process</h3>
+                </div>
+            </article>
+
+            <article class="visual-card reveal">
+                <img src="images/bottel.png" alt="eearth bottled water production" loading="lazy" onerror="this.style.display='none'">
+                <div class="visual-card-content">
+                    <span>03 / Bottle</span>
+                    <h3>Ready to Refresh</h3>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- MISSION & VISION SECTION -->
+<section class="section section-dark">
+    <div class="container">
+        <div class="section-header center reveal">
+            <span class="section-kicker">Our Purpose</span>
+            <h2 class="section-title">Mission & Vision</h2>
+            <p class="section-subtitle">
+                Guided by purpose, driven by quality, committed to nature.
+            </p>
+        </div>
+
+        <div class="mission-grid">
+            <div class="mission-card reveal">
+                <div class="mission-icon"></div>
+                <h3>Our Mission</h3>
+                <p>
+                    To provide pure, natural mineral water that enhances everyday life while respecting and protecting our environment.
+                </p>
+            </div>
+
+            <div class="mission-card reveal">
+                <div class="mission-icon"></div>
+                <h3>Our Vision</h3>
+                <p>
+                    To become the most trusted name in natural mineral water, setting new standards for purity, sustainability, and customer experience.
+                </p>
+            </div>
+
+            <div class="mission-card reveal">
+                <div class="mission-icon"></div>
+                <h3>Our Values</h3>
+                <p>
+                    Purity in every drop, transparency in our process, sustainability in our practices, and excellence in everything we do.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- WHY EEARTH SECTION -->
+<section class="section" id="why">
+    <div class="container">
+        <div class="section-header center reveal">
+            <span class="section-kicker">Why eearth</span>
+            <h2 class="section-title">Pure. Natural. Thoughtfully Presented.</h2>
+            <p class="section-subtitle">
+                The brand experience is designed to make everyday hydration feel refined without losing its connection to nature.
+            </p>
+        </div>
+
+        <div class="promise-grid">
+            <div class="promise-card reveal">
+                <div class="promise-icon"></div>
+                <h3>Natural Source</h3>
+                <p>Sourced from pristine natural springs, untouched by pollution.</p>
+            </div>
+
+            <div class="promise-card reveal">
+                <div class="promise-icon"></div>
+                <h3>Scientific Purity</h3>
+                <p>Advanced purification while preserving essential minerals.</p>
+            </div>
+
+            <div class="promise-card reveal">
+                <div class="promise-icon"></div>
+                <h3>Sustainable</h3>
+                <p>Eco-friendly packaging and responsible sourcing practices.</p>
+            </div>
+
+            <div class="promise-card reveal">
+                <div class="promise-icon"></div>
+                <h3>Premium Quality</h3>
+                <p>Rigorous quality control at every stage of production.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- COMMITMENT SECTION -->
+<section class="section commitment-section">
+    <div class="container">
+        <div class="commitment-grid">
+            <div class="commitment-image reveal">
+                <img src="images/eearth_banner.png" alt="eearth commitment to quality" onerror="this.style.display='none'">
+            </div>
+
+            <div class="commitment-list reveal">
+                <span class="section-kicker">Our Commitment</span>
+                <h2 class="section-title">Quality You Can Trust</h2>
+
+                <div class="commitment-item">
+                    <div class="commitment-number">01</div>
+                    <div>
+                        <h3>Rigorous Testing</h3>
+                        <p>Every batch undergoes comprehensive quality testing.</p>
+                    </div>
+                </div>
+
+                <div class="commitment-item">
+                    <div class="commitment-number">02</div>
+                    <div>
+                        <h3>Transparent Process</h3>
+                        <p>Open about our sourcing, purification, and practices.</p>
+                    </div>
+                </div>
+
+                <div class="commitment-item">
+                    <div class="commitment-number">03</div>
+                    <div>
+                        <h3>Environmental Care</h3>
+                        <p>Committed to reducing our environmental footprint.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOUNDERS SECTION -->
+<section class="ee-founders">
+    <div class="ee-founders-glow ee-glow-1"></div>
+    <div class="ee-founders-glow ee-glow-2"></div>
+
+    <div class="ee-founders-container">
+        <div class="ee-founders-heading">
+            <div class="ee-section-label">
+                <span></span>
+                The Team
+            </div>
+            <h2>
+                Meet the <em>Founders</em>
+            </h2>
+            <p>
+                The visionaries behind eearth — a team united by passion for purity and dedication to bringing nature's best to your everyday life.
+            </p>
+        </div>
+
+        <div class="ee-founders-grid">
+            <article class="ee-founder-card reveal">
+                <div class="ee-card-top-line"></div>
+                <div class="ee-founder-image-wrapper">
+                    <div class="ee-founder-image">
+                        <img src="images/nitin.png" alt="Founder" onerror="this.style.display='none'">
+                        <div class="ee-image-gradient"></div>
+                        <div class="ee-image-shine"></div>
+                    </div>
+                </div>
+                
+                <div class="ee-founder-content">
+    <span class="ee-founder-role">CO-FOUNDER</span>
+
+    <h3>Nitin Kumar</h3>
+
+    <div class="ee-founder-divider"></div>
+
+    <p>
+        Driven by a vision to build eearth into a trusted modern water
+        brand, Nitin focuses on creating a premium experience around
+        purity, quality and thoughtful design — bringing nature-inspired
+        simplicity to every bottle.
+    </p>
+
+                    <div class="ee-bottom-quote">
+                        <div class="ee-bottom-line"></div>
+                        <div class="ee-bottom-content">
+                            <span class="ee-quote-mark">"</span>
+                            <p>Great brands are built by people who believe in what they are creating.</p>
+                            <span class="ee-quote-mark ee-quote-right">"</span>
+                        </div>
+                        <div class="ee-bottom-line"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="ee-founder-card reveal">
+                <div class="ee-card-top-line"></div>
+                <div class="ee-founder-image-wrapper">
+                    <div class="ee-founder-image">
+                        <img src="images/akash.jpg" alt="Co-Founder" onerror="this.style.display='none'">
+                        <div class="ee-image-gradient"></div>
+                        <div class="ee-image-shine"></div>
+                    </div>
+                </div>
+              
+             <div class="ee-founder-content">
+    <span class="ee-founder-role">CO-FOUNDER</span>
+
+    <h3>Akash Kumar</h3>
+
+    <div class="ee-founder-divider"></div>
+
+    <p>
+        Helping shape the eearth vision through a focus on quality,
+        innovation and growth, Akash is committed to building a brand
+        that delivers pure water with a fresh, premium and meaningful
+        experience.
+    </p>
+
+                    <div class="ee-bottom-quote">
+                        <div class="ee-bottom-line"></div>
+                        <div class="ee-bottom-content">
+                            <span class="ee-quote-mark">"</span>
+                            <p>Sustainability isn't a choice — it's our responsibility.</p>
+                            <span class="ee-quote-mark ee-quote-right">"</span>
+                        </div>
+                        <div class="ee-bottom-line"></div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="final-cta">
+    <div class="final-cta-content reveal">
+        <h2>Experience <span>Pure Water</span></h2>
+        <p>
+            Join thousands who have made eearth their choice for pure, natural mineral water.
+        </p>
+        <a href="index.php#contact" class="btn-primary">Get Started</a>
+    </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="eearth-footer">
+    <div class="footer-drops" aria-hidden="true">
+        <span class="footer-drop drop-1"></span>
+        <span class="footer-drop drop-2"></span>
+        <span class="footer-drop drop-3"></span>
+        <span class="footer-drop drop-4"></span>
+        <span class="footer-drop drop-5"></span>
+        <span class="footer-drop drop-6"></span>
+    </div>
+
+    <div class="footer-water">
+        <div class="footer-wave footer-wave-back"></div>
+        <div class="footer-wave footer-wave-middle"></div>
+        <div class="footer-wave footer-wave-front"></div>
+        <div class="footer-water-glow"></div>
+    </div>
+
+    <div class="footer-container">
+        <div class="footer-main-brand">
+            <span class="footer-logo">eearth<span class="footer-trademark"></span></span>
+            <span class="footer-tagline">PURE BY NATURE</span>
+            <p class="footer-description">
+                Natural mineral water created around purity, balance and a modern connection with nature.
+            </p>
+            <a href="index.php#contact" class="footer-enquiry-btn">
+                <span>Start an Enquiry</span>
+                <span class="footer-arrow"></span>
+            </a>
+        </div>
+
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <a href="index.php">Home</a>
+                <a href="about.php">Our Story</a>
+                <a href="index.php#process">Purification</a>
+                <a href="water.php">Our Water</a>
+                <a href="#why">Why eearth</a>
+                <a href="index.php#faq">FAQ</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Collection</h3>
+                <a href="water.php">200 ml</a>
+                <a href="water.php">250 ml</a>
+                <a href="water.php">500 ml</a>
+                <a href="water.php">750 ml</a>
+                <a href="water.php">1 Litre</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Business</h3>
+                <a href="index.php#business">Partner With Us</a>
+                <a href="index.php#business">Hotels & Restaurants</a>
+                <a href="index.php#business">Events & Hospitality</a>
+                <a href="index.php#business">Bulk Requirements</a>
+                <a href="index.php#contact">Business Enquiry</a>
+            </div>
+
+            <div class="footer-column footer-connect">
+                <h3>Connect</h3>
+                <a href="index.php#contact">Contact Us</a>
+                <a href="index.php#contact">Get an Enquiry</a>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="WhatsApp">WA</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-statement">
+        <div class="footer-statement-line"></div>
+        <div class="footer-statement-content">
+            <span>MORE THAN WATER.</span>
+            <strong>IT'S NATURE'S BALANCE.</strong>
+        </div>
+        <div class="footer-statement-line"></div>
+    </div>
+
+    <div class="footer-bottom-wrapper">
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                 2026 <strong>eearth</strong>. All rights reserved.
+            </div>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <span></span>
+                <a href="#">Terms & Conditions</a>
+                <span></span>
+                <a href="index.php#contact">Contact</a>
+            </div>
+            <div class="footer-made">
+                PURE BY NATURE
+                <i></i>
+                NATURAL MINERAL WATER
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+// Navbar scroll effect
+const navbar = document.querySelector(".navbar");
+window.addEventListener("scroll", function() {
+    if (window.scrollY > 80) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+}, { passive: true });
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        const href = this.getAttribute("href");
+        if (!href || href === "#") return;
+        const target = document.querySelector(href);
+        if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    });
+});
+
+// Scroll reveal animation
+(function() {
+    const items = document.querySelectorAll(".reveal");
+    if (!("IntersectionObserver" in window)) {
+        items.forEach(item => item.classList.add("is-visible"));
+        return;
+    }
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                obs.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
+    items.forEach(item => observer.observe(item));
+})();
+</script>
+
+</body>
+</html>

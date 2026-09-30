@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="cyanGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00CED1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#40E0D0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00CED1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#000000" stroke="url(#cyanGradient)" stroke-width="2"/>
+  
+  <!-- Water drop shape -->
+  <path d="M32 12 C32 12 20 28 20 38 C20 44.6 25.4 50 32 50 C38.6 50 44 44.6 44 38 C44 28 32 12 32 12 Z" 
+        fill="url(#cyanGradient)" 
+        filter="url(#glow)"
+        opacity="0.9">
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="2s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Inner highlight -->
+  <path d="M32 16 C32 16 23 29 23 37 C23 42 27 46 32 46 C37 46 41 42 41 37 C41 29 32 16 32 16 Z" 
+        fill="rgba(255,255,255,0.3)"/>
+</svg>

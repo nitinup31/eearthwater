@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="eearth — Pure By Nature. Natural Mineral Water.">
+    <title>eearth — Pure By Nature</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="site-bg-glow"></div>
+
+<!-- CINEMATIC WATER DROPS -->
+<div class="water-drops-container" aria-hidden="true">
+    <span class="water-drop" style="left:5%;animation-duration:7s;animation-delay:-2s"></span>
+    <span class="water-drop" style="left:13%;animation-duration:9s;animation-delay:-6s"></span>
+    <span class="water-drop" style="left:24%;animation-duration:6s;animation-delay:-1s"></span>
+    <span class="water-drop" style="left:36%;animation-duration:10s;animation-delay:-7s"></span>
+    <span class="water-drop" style="left:48%;animation-duration:7.5s;animation-delay:-3s"></span>
+    <span class="water-drop" style="left:61%;animation-duration:8.5s;animation-delay:-5s"></span>
+    <span class="water-drop" style="left:74%;animation-duration:6.5s;animation-delay:-4s"></span>
+    <span class="water-drop" style="left:86%;animation-duration:9.5s;animation-delay:-8s"></span>
+    <span class="water-drop" style="left:94%;animation-duration:7s;animation-delay:-1s"></span>
+</div>
+
+<?php include "header.php"?>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <div class="hero-video-wrapper">
+        <img class="hero-video" src="images/eearth_banner (2).png" alt="eearth banner">
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <span class="hero-badge">Natural Mineral Water</span>
+
+        <h1 class="hero-title">
+            <span class="title-line">More Than</span>
+            <span class="title-line title-gold">Water.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+            Nature's balance, captured in every drop.
+            A premium natural mineral water experience created
+            for moments that deserve something pure.
+        </p>
+
+        <div class="hero-cta">
+            <a href="water.php" class="btn-primary">Explore Our Water</a>
+            <a href="#about" class="btn-secondary">Discover eearth</a>
+        </div>
+    </div>
+
+    <div class="scroll-indicator">Scroll</div>
+</section>
+
+
+<!-- BRAND STORY -->
+<section class="section story-section" id="about">
+    <div class="container story-grid">
+
+        <div class="story-copy reveal">
+            <span class="section-kicker">The eearth story</span>
+
+            <h2>
+                Born from nature.<br>
+                <span>Made for life.</span>
+            </h2>
+
+            <p>
+                eearth is built around a simple idea: water should feel as
+                pure, refreshing and natural as the source it comes from.
+            </p>
+
+            <p>
+                From careful purification to premium presentation, every part
+                of the eearth experience is designed around purity, balance
+                and a modern connection with nature.
+            </p>
+
+            <a href="#process" class="btn-secondary">
+                Our Purification Journey
+            </a>
+        </div>
+
+        <div class="story-visual reveal" aria-hidden="true">
+            <div class="story-orb"></div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- PURIFICATION JOURNEY -->
+<section class="section process-section" id="process">
+    <div class="container">
+
+        <div class="section-header reveal">
+            <span class="section-kicker">From source to bottle</span>
+            <h2 class="section-title">The Purity Journey</h2>
+            <p class="section-subtitle">
+                A carefully controlled journey designed to bring clarity,
+                freshness and consistency to every bottle.
+            </p>
+        </div>
+
+        <div class="process-grid">
+
+            <article class="process-card reveal">
+                <div class="process-number">01</div>
+                <h3>Source</h3>
+                <p>Water begins its journey with a focus on natural quality and responsible sourcing.</p>
+            </article>
+
+            <article class="process-card reveal">
+                <div class="process-number">02</div>
+                <h3>Purify</h3>
+                <p>Multi-stage filtration and purification prepare the water for a clean, refreshing experience.</p>
+            </article>
+
+            <article class="process-card reveal">
+                <div class="process-number">03</div>
+                <h3>Protect</h3>
+                <p>Controlled handling and hygienic bottling help preserve the quality through the final stage.</p>
+            </article>
+
+            <article class="process-card reveal">
+                <div class="process-number">04</div>
+                <h3>Deliver</h3>
+                <p>Premium eearth packaging brings the finished product from our facility to your moment.</p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- PRODUCT COLLECTION -->
+<section class="section collection-section" id="water">
+    <div class="container">
+
+        <div class="collection-intro reveal">
+            <span class="section-kicker">The eearth collection</span>
+            <h2 class="section-title">A Size for Every Moment</h2>
+            <p class="section-subtitle">
+                The eearth collection combines distinctive bottle forms with
+                the signature black, silver, white and cool water aesthetic.
+            </p>
+        </div>
+<div class="collection-grid">
+
+    <!-- 200 ML -->
+    <article class="size-card reveal">
+        <div class="product-bottle bottle-200">
+            <div class="bottle-cap"></div>
+            <div class="bottle-neck"></div>
+            <div class="bottle-body">
+                <div class="bottle-water">
+                    <div class="water-wave-fill"></div>
+                    <div class="water-shine"></div>
+                </div>
+            </div>
+        </div>
+
+        <span class="size-label">200 ml</span>
+        <span class="size-caption">Compact refreshment</span>
+    </article>
+
+
+    <!-- 250 ML -->
+    <article class="size-card reveal">
+        <div class="product-bottle bottle-250">
+            <div class="bottle-cap"></div>
+            <div class="bottle-neck"></div>
+            <div class="bottle-body">
+                <div class="bottle-water">
+                    <div class="water-wave-fill"></div>
+                    <div class="water-shine"></div>
+                </div>
+            </div>
+        </div>
+
+        <span class="size-label">250 ml</span>
+        <span class="size-caption">Easy everyday serve</span>
+    </article>
+
+
+    <!-- 500 ML -->
+    <article class="size-card reveal">
+        <div class="product-bottle bottle-500">
+            <div class="bottle-cap"></div>
+            <div class="bottle-neck"></div>
+            <div class="bottle-body">
+                <div class="bottle-water">
+                    <div class="water-wave-fill"></div>
+                    <div class="water-shine"></div>
+                </div>
+            </div>
+        </div>
+
+        <span class="size-label">500 ml</span>
+        <span class="size-caption">Everyday hydration</span>
+    </article>
+
+
+    <!-- 750 ML -->
+    <article class="size-card reveal">
+        <div class="product-bottle bottle-750">
+            <div class="bottle-cap"></div>
+            <div class="bottle-neck"></div>
+            <div class="bottle-body">
+                <div class="bottle-water">
+                    <div class="water-wave-fill"></div>
+                    <div class="water-shine"></div>
+                </div>
+            </div>
+        </div>
+
+        <span class="size-label">750 ml</span>
+        <span class="size-caption">Longer moments</span>
+    </article>
+
+
+    <!-- 1 LITRE -->
+    <article class="size-card reveal">
+        <div class="product-bottle bottle-1l">
+            <div class="bottle-cap"></div>
+            <div class="bottle-neck"></div>
+            <div class="bottle-body">
+                <div class="bottle-water">
+                    <div class="water-wave-fill"></div>
+                    <div class="water-shine"></div>
+                </div>
+            </div>
+        </div>
+
+        <span class="size-label">1 Litre</span>
+        <span class="size-caption">Stay refreshed</span>
+    </article>
+
+</div>
+
+        <p style="text-align:center;color:var(--color-gray);font-size:.75rem;margin-top:1.8rem;">
+            *Bottle visuals should be replaced with your final approved eearth bottle artwork.
+        </p>
+    </div>
+</section>
+
+<!-- =====================================================
+     EEARTH WATER EXPERIENCE SECTION
+===================================================== -->
+
+<section class="eearth-water-experience" id="water-experience">
+
+    <!-- Animated Water Surface -->
+    <div class="eearth-water-surface">
+
+        <div class="water-wave water-wave-back"></div>
+        <div class="water-wave water-wave-mid"></div>
+        <div class="water-wave water-wave-front"></div>
+
+        <!-- Water bubbles -->
+        <span class="water-bubble bubble-1"></span>
+        <span class="water-bubble bubble-2"></span>
+        <span class="water-bubble bubble-3"></span>
+        <span class="water-bubble bubble-4"></span>
+        <span class="water-bubble bubble-5"></span>
+        <span class="water-bubble bubble-6"></span>
+
+    </div>
+
+
+    <!-- Main Content -->
+    <div class="eearth-water-content">
+
+        <span class="eearth-section-label">
+            EEARTH · PURE BY NATURE
+        </span>
+
+        <h2>
+            More Than
+            <span>Water</span>
+        </h2>
+
+        <p>
+            Pure by nature. Crafted for every moment.
+            Experience refreshing natural mineral water
+            with the distinctive eearth touch.
+        </p>
+
+    </div>
+
+
+    <!-- Feature Strip -->
+    <div class="eearth-water-features">
+
+        <div class="water-feature">
+            <div class="feature-icon">
+                <span>💧</span>
+            </div>
+
+            <div>
+                <strong>Pure & Safe</strong>
+                <small>
+                    Carefully processed water
+                </small>
+            </div>
+        </div>
+
+
+        <div class="water-feature">
+            <div class="feature-icon">
+                <span>🏔</span>
+            </div>
+
+            <div>
+                <strong>Nature Inspired</strong>
+                <small>
+                    Inspired by natural balance
+                </small>
+            </div>
+        </div>
+
+
+        <div class="water-feature">
+            <div class="feature-icon">
+                <span>✦</span>
+            </div>
+
+            <div>
+                <strong>Premium Experience</strong>
+                <small>
+                    Designed for every occasion
+                </small>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- WHY EEARTH -->
+<section class="section section-dark" id="why">
+    <div class="container">
+
+        <div class="section-header reveal">
+            <span class="section-kicker">Why eearth</span>
+            <h2 class="section-title">Pure. Natural. Thoughtfully Presented.</h2>
+            <p class="section-subtitle">
+                The brand experience is designed to make everyday hydration
+                feel refined without losing its connection to nature.
+            </p>
+        </div>
+
+        <div class="promise-grid">
+
+            <article class="promise-card reveal">
+                <div class="promise-icon">💧</div>
+                <h3>Pure & Safe</h3>
+                <p>Focused on controlled processing, hygiene and consistent quality.</p>
+            </article>
+
+            <article class="promise-card reveal">
+                <div class="promise-icon">🏔️</div>
+                <h3>Nature Inspired</h3>
+                <p>A visual identity inspired by mountains, water and natural balance.</p>
+            </article>
+
+            <article class="promise-card reveal">
+                <div class="promise-icon">✨</div>
+                <h3>Premium Experience</h3>
+                <p>Distinctive packaging created to stand out on the shelf and at the table.</p>
+            </article>
+
+            <article class="promise-card reveal">
+                <div class="promise-icon">🌍</div>
+                <h3>A Cleaner Tomorrow</h3>
+                <p>A brand direction that keeps responsibility and nature in the conversation.</p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- SUSTAINABILITY -->
+<section class="section sustainability-section">
+    <div class="container">
+
+        <div class="sustainability-panel reveal">
+            <span class="section-kicker">Beyond the bottle</span>
+
+            <h2>
+                More than water.<br>
+                <span>It's nature's balance.</span>
+            </h2>
+
+            <p>
+                eearth is designed to build a premium water brand with a
+                strong connection to nature. Our long-term direction is to
+                keep improving how we source, package, present and deliver
+                the product.
+            </p>
+
+            <div class="sustainability-points">
+                <div class="sustainability-point">
+                    <strong>Responsible thinking</strong>
+                    <span>Build better practices as the brand grows.</span>
+                </div>
+
+                <div class="sustainability-point">
+                    <strong>Less visual waste</strong>
+                    <span>Clean, intentional packaging instead of unnecessary complexity.</span>
+                </div>
+
+                <div class="sustainability-point">
+                    <strong>Nature first</strong>
+                    <span>A brand identity connected to water and the natural world.</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- BUSINESS -->
+<section class="section business-section" id="business">
+    <div class="container">
+
+        <div class="section-header reveal">
+            <span class="section-kicker">Partner with eearth</span>
+            <h2 class="section-title">Bring eearth to Your Business</h2>
+            <p class="section-subtitle">
+                For restaurants, cafés, hotels, offices, events and retail
+                partners looking for a distinctive packaged-water experience.
+            </p>
+        </div>
+
+        <div class="business-content">
+
+            <div class="business-text reveal">
+                <h3>Built for premium hospitality.</h3>
+
+                <p>
+                    Whether you need water for daily service, corporate
+                    requirements, hospitality or special events, eearth can
+                    be positioned as a refined part of the customer experience.
+                </p>
+
+                <ul class="business-features">
+                    <li>Premium presentation</li>
+                    <li>Multiple bottle sizes</li>
+                    <li>Business and event supply</li>
+                    <li>Custom partnership opportunities</li>
+                </ul>
+
+                <a href="#contact" class="btn-primary">Become a Partner</a>
+            </div>
+
+            <div class="business-stats reveal">
+                <div class="stat-item">
+                    <span class="stat-number">05</span>
+                    <span class="stat-label">Bottle sizes</span>
+                </div>
+
+                <div class="stat-item">
+                    <span class="stat-number">01</span>
+                    <span class="stat-label">Signature identity</span>
+                </div>
+
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Hydration mindset</span>
+                </div>
+
+                <div class="stat-item">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">Possibilities</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- FAQ -->
+<section class="section faq-section" id="faq">
+    <div class="container">
+
+        <div class="section-header reveal">
+            <span class="section-kicker">Questions</span>
+            <h2 class="section-title">Frequently Asked</h2>
+            <p class="section-subtitle">
+                A few quick answers for customers and potential partners.
+            </p>
+        </div>
+
+        <div class="faq-list">
+
+            <details class="faq-item reveal">
+                <summary>What is eearth?</summary>
+                <div class="faq-answer">
+                    eearth is a natural mineral water brand built around
+                    purity, nature-inspired design and a premium drinking experience.
+                </div>
+            </details>
+
+            <details class="faq-item reveal">
+                <summary>Which bottle sizes are available?</summary>
+                <div class="faq-answer">
+                    The current collection is presented in 200 ml, 250 ml,
+                    500 ml, 750 ml and 1 Litre formats.
+                </div>
+            </details>
+
+            <details class="faq-item reveal">
+                <summary>Can businesses partner with eearth?</summary>
+                <div class="faq-answer">
+                    Yes. Restaurants, hotels, cafés, offices, events and other
+                    businesses can contact the eearth team regarding supply and partnership options.
+                </div>
+            </details>
+
+            <details class="faq-item reveal">
+                <summary>How can I place an enquiry?</summary>
+                <div class="faq-answer">
+                    Use the contact form below and include your requirement,
+                    quantity and location. The team can then respond with the relevant details.
+                </div>
+            </details>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+    <div class="container reveal">
+        <span class="section-kicker">PURE BY NATURE</span>
+
+        <h2>Something Pure<br>Is Coming.</h2>
+
+        <p>
+            Follow the journey. Discover the collection.
+            Experience eearth.
+        </p>
+
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+    </div>
+</section>
+
+
+<!-- CONTACT -->
+<section class="section section-dark" id="contact">
+    <div class="container">
+
+        <div class="section-header reveal">
+            <span class="section-kicker">Contact eearth</span>
+            <h2 class="section-title">Let's Talk</h2>
+            <p class="section-subtitle">
+                Looking for supply, business partnership or event requirements?
+                Send us your details.
+            </p>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-info reveal">
+                <div class="contact-item">
+                    <h4>Business Enquiries</h4>
+                    <p>Partnerships, hospitality, retail and bulk requirements.</p>
+                </div>
+
+                <div class="contact-item">
+                    <h4>Location</h4>
+                    <p>India</p>
+                </div>
+
+                <div class="contact-item">
+                    <h4>Brand</h4>
+                    <p>eearth — PURE BY NATURE</p>
+                </div>
+
+                <div class="contact-item">
+                    <h4>Follow the Journey</h4>
+                    <p>Stay connected for the official launch and product updates.</p>
+                </div>
+            </div>
+
+            <form class="contact-form reveal" action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="tel" name="phone" placeholder="Phone Number">
+                <input type="text" name="business" placeholder="Business / Organization">
+                <textarea name="message" placeholder="Tell us what you need..." required></textarea>
+                <button type="submit" class="btn-primary">Send Enquiry</button>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- =====================================================
+     EEARTH PREMIUM WATER FOOTER
+===================================================== -->
+
+<footer class="eearth-footer">
+
+    <!-- Floating Water Drops -->
+    <div class="footer-drops" aria-hidden="true">
+        <span class="footer-drop drop-1"></span>
+        <span class="footer-drop drop-2"></span>
+        <span class="footer-drop drop-3"></span>
+        <span class="footer-drop drop-4"></span>
+        <span class="footer-drop drop-5"></span>
+        <span class="footer-drop drop-6"></span>
+    </div>
+
+
+    <!-- =================================================
+         WATER WAVE TOP
+    ================================================== -->
+
+    <div class="footer-water">
+
+        <div class="footer-wave footer-wave-back"></div>
+        <div class="footer-wave footer-wave-middle"></div>
+        <div class="footer-wave footer-wave-front"></div>
+
+        <div class="footer-water-glow"></div>
+
+    </div>
+
+
+    <!-- =================================================
+         FOOTER MAIN CONTENT
+    ================================================== -->
+
+    <div class="footer-container">
+
+        <!-- FOOTER BRAND -->
+        <div class="footer-main-brand">
+
+            <span class="footer-logo">
+                eearth<span class="footer-trademark"></span>
+            </span>
+
+            <span class="footer-tagline">
+                PURE BY NATURE
+            </span>
+
+            <p class="footer-description">
+                Natural mineral water created around purity,
+                balance and a modern connection with nature.
+            </p>
+
+            <a href="#contact" class="footer-enquiry-btn">
+                <span>Start an Enquiry</span>
+                <span class="footer-arrow">→</span>
+            </a>
+
+        </div>
+
+
+        <!-- FOOTER LINKS -->
+        <div class="footer-columns">
+
+            <!-- EXPLORE -->
+            <div class="footer-column">
+
+                <h3>Explore</h3>
+
+                <a href="#home">Home</a>
+                <a href="#about">Our Story</a>
+                <a href="#process">Purification</a>
+                <a href="water.php">Our Water</a>
+                <a href="#why">Why eearth</a>
+                <a href="#faq">FAQ</a>
+
+            </div>
+
+
+            <!-- COLLECTION -->
+            <div class="footer-column">
+
+                <h3>Collection</h3>
+
+                <a href="water.php">200 ml</a>
+                <a href="water.php">250 ml</a>
+                <a href="water.php">500 ml</a>
+                <a href="water.php">750 ml</a>
+                <a href="water.php">1 Litre</a>
+
+            </div>
+
+
+            <!-- BUSINESS -->
+            <div class="footer-column">
+
+                <h3>Business</h3>
+
+                <a href="#business">Partner With Us</a>
+                <a href="#business">Hotels & Restaurants</a>
+                <a href="#business">Events & Hospitality</a>
+                <a href="#business">Bulk Requirements</a>
+                <a href="#contact">Business Enquiry</a>
+
+            </div>
+
+
+            <!-- CONNECT -->
+            <div class="footer-column footer-connect">
+
+                <h3>Connect</h3>
+
+                <a href="#contact">Contact Us</a>
+                <a href="#contact">Get an Enquiry</a>
+
+                <div class="footer-socials">
+
+                    <a href="#" aria-label="Instagram">
+                        IG
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        FB
+                    </a>
+
+                    <a href="#" aria-label="WhatsApp">
+                        WA
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         FOOTER WATER STATEMENT
+    ================================================== -->
+
+    <div class="footer-statement">
+
+        <div class="footer-statement-line"></div>
+
+        <div class="footer-statement-content">
+
+            <span>MORE THAN WATER.</span>
+
+            <strong>
+                IT'S NATURE'S BALANCE.
+            </strong>
+
+        </div>
+
+        <div class="footer-statement-line"></div>
+
+    </div>
+
+
+    <!-- =================================================
+         FOOTER BOTTOM
+    ================================================== -->
+
+    <div class="footer-bottom-wrapper">
+
+        <div class="footer-bottom">
+
+            <div class="footer-copyright">
+                © 2026 <strong>eearth</strong>.
+                All rights reserved.
+            </div>
+
+
+            <div class="footer-bottom-links">
+
+                <a href="#">Privacy Policy</a>
+
+                <span></span>
+
+                <a href="#">Terms & Conditions</a>
+
+                <span></span>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-made">
+
+                PURE BY NATURE
+                <i></i>
+                NATURAL MINERAL WATER
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+<script>
+/* =========================================================
+   LIGHTWEIGHT SCROLL REVEAL
+   ========================================================= */
+
+(function () {
+    const items = document.querySelectorAll(".reveal");
+
+    if (!("IntersectionObserver" in window)) {
+        items.forEach(item => item.classList.add("is-visible"));
+        return;
+    }
+
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                obs.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.12,
+        rootMargin: "0px 0px -50px 0px"
+    });
+
+    items.forEach(item => observer.observe(item));
+})();
+
+
+/* Pause background video when hero is far outside viewport.
+   This saves battery/CPU without changing the visual design. */
+(function () {
+    const video = document.querySelector(".hero-video");
+    const hero = document.querySelector(".hero");
+
+    if (!video || !hero || !("IntersectionObserver" in window)) return;
+
+    const observer = new IntersectionObserver(entries => {
+        const visible = entries[0].isIntersecting;
+
+        if (visible) {
+            video.play().catch(() => {});
+        } else {
+            video.pause();
+        }
+    }, { threshold: 0.05 });
+
+    observer.observe(hero);
+})();
+</script>
+
+</body>
+</html>

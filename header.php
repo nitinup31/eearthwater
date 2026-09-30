@@ -1,0 +1,751 @@
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <!-- LOGO -->
+        <a href="index.php"
+           class="nav-logo"
+           aria-label="eearth home">
+
+            <span class="logo-text">
+                eearth<span class="trademark"></span>
+            </span>
+
+        </a>
+
+
+        <!-- MOBILE MENU BUTTON -->
+        <button
+            class="mobile-menu-toggle"
+            id="mobileMenuToggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+        <!-- NAVIGATION -->
+        <nav
+            class="main-navigation"
+            id="mainNavigation"
+            aria-label="Main navigation">
+
+            <ul class="nav-menu">
+
+                <li>
+                    <a class="nav-link"
+                       href="index.php">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link"
+                       href="about.php">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link"
+                       href="water.php">
+                        Water
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link"
+                       href="business.php">
+                        Business
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link"
+                       href="contact.php">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <!-- ORDER BUTTON -->
+        <a
+            class="nav-cta"
+            href="order.php">
+            Order Now
+        </a>
+
+    </div>
+
+</header>
+
+
+<!-- ================= NAVBAR CSS ================= -->
+
+<style>
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    z-index: 10000;
+
+    /* Transparent at top */
+    background: transparent;
+
+    border-bottom: 1px solid transparent;
+
+    transition:
+        background 0.35s ease,
+        border-color 0.35s ease,
+        backdrop-filter 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+
+/* ================= SCROLLED NAVBAR ================= */
+
+.navbar.scrolled {
+    background: rgba(2, 5, 7, 0.94);
+
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.07);
+
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.20);
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1400px;
+    height: 80px;
+
+    margin: 0 auto;
+    padding: 0 4%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+}
+
+
+/* ================= LOGO ================= */
+
+.nav-logo {
+    text-decoration: none;
+    color: #ffffff;
+
+    display: inline-flex;
+    align-items: center;
+
+    flex-shrink: 0;
+}
+
+
+.logo-text {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 34px;
+    font-weight: 600;
+
+    line-height: 1;
+
+    letter-spacing: -1.5px;
+
+    color: #ffffff;
+
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+
+.trademark {
+    display: inline-block;
+
+    width: 4px;
+    height: 4px;
+
+    margin-left: 3px;
+
+    border-radius: 50%;
+
+    background: #35c8ff;
+
+    vertical-align: top;
+}
+
+
+/* ================= NAVIGATION ================= */
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-menu {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    gap: 48px;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-menu li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-link {
+    position: sticky;
+
+    display: inline-block;
+
+    padding: 10px 0;
+
+    color: rgba(255, 255, 255, 0.82);
+
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+
+    font-size: .78rem;
+    font-weight: 500;
+
+    letter-spacing: 1.5px;
+
+    text-transform: uppercase;
+
+    transition:
+        color 0.3s ease;
+}
+
+
+.nav-link::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 0;
+    height: 2px;
+
+    background: #35c8ff;
+
+    transition:
+        width 0.3s ease;
+}
+
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+
+/* ================= ORDER BUTTON ================= */
+
+.nav-cta {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 155px;
+    height: 50px;
+
+    padding: 0 28px;
+
+    box-sizing: border-box;
+
+    border-radius: 30px;
+
+    background: #5bdcff;
+
+    color: #031017;
+
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    box-shadow:
+        0 0 25px rgba(53, 200, 255, 0.18);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+}
+
+
+.nav-cta:hover {
+    transform: translateY(-2px);
+
+    background: #78e3ff;
+
+    box-shadow:
+        0 0 35px rgba(53, 200, 255, 0.32);
+}
+
+
+/* ================= MOBILE MENU BUTTON ================= */
+
+.mobile-menu-toggle {
+    display: none;
+
+    width: 46px;
+    height: 46px;
+
+    padding: 0;
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.04);
+
+    cursor: pointer;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    gap: 5px;
+
+    flex-shrink: 0;
+}
+
+
+.mobile-menu-toggle span {
+    display: block;
+
+    width: 19px;
+    height: 2px;
+
+    background: #ffffff;
+
+    border-radius: 2px;
+
+    transition:
+        transform 0.3s ease,
+        opacity 0.3s ease;
+}
+
+
+/* ================= TABLET ================= */
+
+@media (max-width: 1050px) {
+
+    .nav-container {
+        height: 90px;
+        padding: 0 30px;
+    }
+
+
+    .nav-menu {
+        gap: 28px;
+    }
+
+
+    .nav-link {
+        font-size: 12px;
+        letter-spacing: 1.2px;
+    }
+
+
+    .nav-cta {
+        min-width: 125px;
+        height: 46px;
+
+        padding: 0 20px;
+
+        font-size: 11px;
+    }
+
+}
+
+
+/* ================= MOBILE + SMALL TABLET ================= */
+@media (max-width: 800px) {
+
+    .nav-container {
+        height: 80px;
+
+        padding:
+            0 20px;
+    }
+
+    .logo-text {
+        font-size: 30px;
+    }
+
+    /* Show hamburger */
+
+    .mobile-menu-toggle {
+        display: flex;
+
+        margin-left: auto;
+        margin-right: 12px;
+    }
+
+    /* ...rest of your existing code... */
+
+
+    /* Hide desktop navigation initially */
+
+    .main-navigation {
+        display: none;
+
+        position: absolute;
+
+        top: 80px;
+        left: 0;
+        right: 0;
+
+        width: 100%;
+
+        padding: 12px 20px 20px;
+
+        box-sizing: border-box;
+
+        background:
+            rgba(2, 5, 7, 0.98);
+
+        border-top:
+            1px solid rgba(255, 255, 255, 0.06);
+
+        border-bottom:
+            1px solid rgba(255, 255, 255, 0.08);
+
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+    }
+
+
+    /* Open menu */
+
+    .main-navigation.active {
+        display: block;
+    }
+
+
+    .nav-menu {
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 0;
+    }
+
+
+    .nav-menu li {
+        width: 100%;
+    }
+
+
+    .nav-link {
+        width: 100%;
+
+        display: block;
+
+        padding: 15px 8px;
+
+        box-sizing: border-box;
+
+        font-size: 13px;
+
+        border-bottom:
+            1px solid rgba(255, 255, 255, 0.06);
+    }
+
+
+    .nav-link::after {
+        display: none;
+    }
+
+
+    .nav-link:hover {
+        padding-left: 14px;
+
+        color: #59e4ff;
+    }
+
+
+    /* Order button */
+
+    .nav-cta {
+        min-width: auto;
+
+        height: 44px;
+
+        padding: 0 17px;
+
+        font-size: 10px;
+
+        letter-spacing: 1.5px;
+    }
+
+}
+
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 480px) {
+
+    .nav-container {
+        height: 72px;
+
+        padding: 0 15px;
+    }
+
+
+    .logo-text {
+        font-size: 27px;
+    }
+
+
+    .mobile-menu-toggle {
+        width: 42px;
+        height: 42px;
+
+        margin-right: 8px;
+    }
+
+
+    .nav-cta {
+        height: 40px;
+
+        padding: 0 13px;
+
+        font-size: 9px;
+
+        letter-spacing: 1.2px;
+    }
+
+
+    .main-navigation {
+        top: 72px;
+
+        padding:
+            10px 15px 18px;
+    }
+
+}
+
+
+/* ================= VERY SMALL SCREENS ================= */
+
+@media (max-width: 360px) {
+
+    .logo-text {
+        font-size: 24px;
+    }
+
+
+    .mobile-menu-toggle {
+        width: 39px;
+        height: 39px;
+    }
+
+
+    .nav-cta {
+        padding: 0 10px;
+
+        font-size: 8px;
+    }
+
+}
+
+</style>
+
+
+<!-- ================= NAVBAR JAVASCRIPT ================= -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+const navbar = document.querySelector(".navbar");
+
+function handleNavbarScroll() {
+
+    if (window.scrollY > 30) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+
+}
+
+window.addEventListener("scroll", handleNavbarScroll);
+
+handleNavbarScroll();
+
+    const menuButton =
+        document.getElementById("mobileMenuToggle");
+
+    const navigation =
+        document.getElementById("mainNavigation");
+
+
+    if (!menuButton || !navigation) {
+        return;
+    }
+
+
+    menuButton.addEventListener("click", function () {
+
+        const isOpen =
+            navigation.classList.toggle("active");
+
+
+        menuButton.setAttribute(
+            "aria-expanded",
+            isOpen ? "true" : "false"
+        );
+
+
+        /* Hamburger → X */
+
+        const bars =
+            menuButton.querySelectorAll("span");
+
+
+        if (isOpen) {
+
+            bars[0].style.transform =
+                "translateY(7px) rotate(45deg)";
+
+            bars[1].style.opacity =
+                "0";
+
+            bars[2].style.transform =
+                "translateY(-7px) rotate(-45deg)";
+
+        } else {
+
+            bars[0].style.transform =
+                "none";
+
+            bars[1].style.opacity =
+                "1";
+
+            bars[2].style.transform =
+                "none";
+
+        }
+
+    });
+
+
+    /* Close menu after clicking a link */
+
+    const navLinks =
+        navigation.querySelectorAll(".nav-link");
+
+
+    navLinks.forEach(function (link) {
+
+        link.addEventListener("click", function () {
+
+            navigation.classList.remove("active");
+
+            menuButton.setAttribute(
+                "aria-expanded",
+                "false"
+            );
+
+
+            const bars =
+                menuButton.querySelectorAll("span");
+
+
+            bars[0].style.transform =
+                "none";
+
+            bars[1].style.opacity =
+                "1";
+
+            bars[2].style.transform =
+                "none";
+
+        });
+
+    });
+
+
+    /* Close menu if screen becomes desktop */
+
+    window.addEventListener("resize", function () {
+
+        if (window.innerWidth > 800) {
+
+            navigation.classList.remove("active");
+
+            menuButton.setAttribute(
+                "aria-expanded",
+                "false"
+            );
+
+
+            const bars =
+                menuButton.querySelectorAll("span");
+
+
+            bars[0].style.transform =
+                "none";
+
+            bars[1].style.opacity =
+                "1";
+
+            bars[2].style.transform =
+                "none";
+
+        }
+
+    });
+
+});
+
+</script>

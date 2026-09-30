@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Order eearth Natural Mineral Water. Send your requirements for bottles, bulk orders, events and business supplies.">
+
+    <title>Order Now | eearth™ — Pure By Nature</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Order CSS -->
+    <link rel="stylesheet" href="css/order.css">
+    
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <?php include 'header.php'; ?>
+
+
+    <!-- =========================================
+         ORDER HERO
+    ========================================== -->
+
+    <section class="order-hero">
+
+        <div class="order-hero-glow"></div>
+        <div class="order-hero-glow order-glow-two"></div>
+
+        <div class="order-hero-content">
+
+            <span class="order-eyebrow">
+                EEARTH ORDER
+            </span>
+
+            <h1>
+                Bring purity
+                <span>to every moment.</span>
+            </h1>
+
+            <p>
+                Tell us what you need and our team will
+                get back to you with the right solution
+                for your requirement.
+            </p>
+
+        </div>
+
+        <div class="hero-water-line"></div>
+
+    </section>
+
+
+    <!-- =========================================
+         ORDER SECTION
+    ========================================== -->
+
+    <main class="order-section">
+
+        <div class="order-container">
+
+            <!-- LEFT SIDE -->
+            <div class="order-intro">
+
+                <span class="section-label">
+                    START YOUR ORDER
+                </span>
+
+                <h2>
+                    Let's make your
+                    <span>order simple.</span>
+                </h2>
+
+                <p>
+                    Whether you're ordering for your home,
+                    business, event or retail requirement,
+                    share your details with us and we'll
+                    help you with availability and pricing.
+                </p>
+
+
+                <!-- ORDER INFO -->
+                <div class="order-info-list">
+
+                    <div class="order-info-item">
+
+                        <div class="info-icon">
+                            <span>01</span>
+                        </div>
+
+                        <div>
+                            <h3>Choose your water</h3>
+                            <p>
+                                Select the bottle size and
+                                quantity you require.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="order-info-item">
+
+                        <div class="info-icon">
+                            <span>02</span>
+                        </div>
+
+                        <div>
+                            <h3>Share your requirement</h3>
+                            <p>
+                                Tell us about your delivery,
+                                event or business requirement.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="order-info-item">
+
+                        <div class="info-icon">
+                            <span>03</span>
+                        </div>
+
+                        <div>
+                            <h3>We'll connect with you</h3>
+                            <p>
+                                Our team will contact you
+                                to confirm the details.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SMALL NOTE -->
+                <div class="order-note">
+
+                    <div class="note-dot"></div>
+
+                    <p>
+                        <strong>Looking for bulk orders?</strong><br>
+                        Select the relevant option in the form
+                        and tell us your approximate requirement.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT FORM -->
+            <div class="order-form-wrapper">
+
+                <div class="form-top">
+
+                    <div>
+                        <span>EEARTH</span>
+                        <h2>Order / Enquiry</h2>
+                    </div>
+
+                    <div class="form-water-mark">
+                        PURE
+                    </div>
+
+                </div>
+
+
+                <form id="orderForm">
+
+
+                    <!-- CUSTOMER DETAILS -->
+                    <div class="form-heading">
+                        <span>01</span>
+                        <h3>Your Details</h3>
+                    </div>
+
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Full Name
+                                <span>*</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your full name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="phone">
+                                Mobile Number
+                                <span>*</span>
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="+91 XXXXX XXXXX"
+                                pattern="[0-9+\-\s]{10,15}"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group full-width">
+
+                            <label for="email">
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="yourname@example.com"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ORDER DETAILS -->
+                    <div class="form-heading form-heading-space">
+                        <span>02</span>
+                        <h3>Order Details</h3>
+                    </div>
+
+
+                    <div class="form-grid">
+
+
+                        <div class="form-group">
+
+                            <label for="orderType">
+                                Order Type
+                                <span>*</span>
+                            </label>
+
+                            <select
+                                id="orderType"
+                                name="orderType"
+                                required
+                            >
+
+                                <option value="">
+                                    Select order type
+                                </option>
+
+                                <option value="Personal">
+                                    Personal / Home
+                                </option>
+
+                                <option value="Business">
+                                    Business / Corporate
+                                </option>
+
+                                <option value="Event">
+                                    Event / Function
+                                </option>
+
+                                <option value="Retail">
+                                    Retail / Shop
+                                </option>
+
+                                <option value="Bulk">
+                                    Bulk Order
+                                </option>
+
+                                <option value="Distributor">
+                                    Distributor / Dealership
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="product">
+                                Bottle Size
+                                <span>*</span>
+                            </label>
+
+                            <select
+                                id="product"
+                                name="product"
+                                required
+                            >
+
+                                <option value="">
+                                    Select bottle size
+                                </option>
+
+                                <option value="200ml">
+                                    200 ml
+                                </option>
+
+                                <option value="250ml">
+                                    250 ml
+                                </option>
+
+                                <option value="500ml">
+                                    500 ml
+                                </option>
+
+                                <option value="750ml">
+                                    750 ml
+                                </option>
+
+                                <option value="1L">
+                                    1 Litre
+                                </option>
+
+                                <option value="2L">
+                                    2 Litre
+                                </option>
+
+                                <option value="Multiple">
+                                    Multiple Sizes
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="quantity">
+                                Approx. Quantity
+                                <span>*</span>
+                            </label>
+
+                            <input
+                                type="number"
+                                id="quantity"
+                                name="quantity"
+                                min="1"
+                                placeholder="e.g. 100"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="deliveryDate">
+                                Preferred Delivery Date
+                            </label>
+
+                            <input
+                                type="date"
+                                id="deliveryDate"
+                                name="deliveryDate"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- DELIVERY DETAILS -->
+                    <div class="form-heading form-heading-space">
+                        <span>03</span>
+                        <h3>Delivery Details</h3>
+                    </div>
+
+
+                    <div class="form-grid">
+
+
+                        <div class="form-group full-width">
+
+                            <label for="location">
+                                Delivery Location
+                                <span>*</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                id="location"
+                                name="location"
+                                placeholder="Enter city / area / locality"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group full-width">
+
+                            <label for="address">
+                                Full Address
+                            </label>
+
+                            <textarea
+                                id="address"
+                                name="address"
+                                rows="3"
+                                placeholder="Enter complete delivery address"
+                            ></textarea>
+
+                        </div>
+
+
+                        <div class="form-group full-width">
+
+                            <label for="message">
+                                Additional Requirements
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="4"
+                                placeholder="Tell us anything else we should know..."
+                            ></textarea>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SUBMIT -->
+                    <div class="form-submit-area">
+
+                        <p>
+                            By submitting this form, you agree
+                            to be contacted by the eearth team
+                            regarding your enquiry.
+                        </p>
+
+                        <button
+                            type="submit"
+                            class="order-submit"
+                        >
+
+                            <span>
+                                Submit Order Request
+                            </span>
+
+                            <b>→</b>
+
+                        </button>
+
+                    </div>
+
+
+                    <!-- SUCCESS MESSAGE -->
+                    <div
+                        id="successMessage"
+                        class="success-message"
+                    >
+
+                        <div class="success-icon">
+                            ✓
+                        </div>
+
+                        <div>
+                            <h3>Request received.</h3>
+
+                            <p>
+                                Thank you for choosing eearth.
+                                Our team will contact you shortly.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================================
+         FINAL CTA
+    ========================================== -->
+
+    <section class="order-final">
+
+        <div class="final-water-glow"></div>
+
+        <div class="order-final-content">
+
+            <span>
+                PURE BY NATURE
+            </span>
+
+            <h2>
+                Every drop.
+                <em>Thoughtfully delivered.</em>
+            </h2>
+
+            <p>
+                eearth — natural mineral water designed
+                around purity, quality and nature.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <?php include "footer.php"?>
+
+
+    <!-- HEADER / FOOTER -->
+    <script>
+
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+            });
+
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer").innerHTML = data;
+            });
+
+    </script>
+
+
+    <!-- FORM SCRIPT -->
+    <script>
+
+        const orderForm =
+            document.getElementById("orderForm");
+
+        const successMessage =
+            document.getElementById("successMessage");
+
+
+        orderForm.addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            successMessage.classList.add("show");
+
+            orderForm.reset();
+
+            setTimeout(() => {
+
+                successMessage.classList.remove("show");
+
+            }, 7000);
+
+        });
+
+    </script>
+
+</body>
+</html>
